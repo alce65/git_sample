@@ -11,5 +11,8 @@
     "HTML"
   ],
   "author": "Alejandro Cerezo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
 }
