@@ -1,18 +1,22 @@
 {
-  "name": "git_sample",
-  "version": "1.0.0",
-  "description": "Sample git",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Git",
-    "HTML"
-  ],
-  "author": "Alejandro Cerezo",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.26.1"
-  }
+    "name": "git_sample",
+    "version": "1.0.0",
+    "description": "Sample git",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 0",
+        "prepare": "husky install"
+    },
+    "keywords": [
+        "Git",
+        "HTML"
+    ],
+    "author": "Alejandro Cerezo",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.26.1"
+    },
+    "devDependencies": {
+        "husky": "^7.0.4"
+    }
 }
